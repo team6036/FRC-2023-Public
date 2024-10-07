@@ -1,0 +1,21 @@
+.idea
+.vscode
+.vim
+
+*.jpg
+*.mp4
+
+build
+bin
+.DS_STORE
+.gradle
+
+*.log
+simgui.json
+simgui-window.json
+
+<<<<<<< HEAD
+*.dat
+=======
+*.dat
+>>>>>>> main

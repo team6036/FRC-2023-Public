@@ -1,0 +1,43 @@
+{
+  "main": {
+    "type": "all",
+    "paths": [
+      "CUBE_PICK",
+      "DOUBLE_SUBSTATION",
+      "HYBRID_PLACE",
+      "INTAKE",
+      "PLACE_CONE_H",
+      "PLACE_CONE_M",
+      "PLACE_CUBE_H",
+      "PLACE_CUBE_M",
+      "STOWED"
+    ],
+    "constraints": [
+      [-0.69, 0.13, -0.3, 0]
+    ]
+  },
+  "down_high": {
+    "type": "sequential",
+    "paths": [
+      "PLACE_CONE_H",
+      "STOWED"
+    ],
+    "constraints": [
+      [-0.69, 0.13, -0.3, 0],
+      [1 , 1.15, 0.85, 1.4],
+      [0.5, 0.9, -1, 0.85]
+    ]
+  },
+  "down_mid": {
+    "type": "sequential",
+    "paths": [
+      "PLACE_CONE_M",
+      "STOWED"
+    ],
+    "constraints": [
+      [-0.69, 0.13, -0.3, 0],
+      [0.7, 0.8, 0.58, 1], 
+      [0.5, 0.9, -1, 0.5]
+    ]
+  }
+}
